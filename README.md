@@ -35,7 +35,6 @@ restassured-assessment/
         │   │   ├── TestimonialPayload.java        ← Request body builder for testimonials
         │   │   └── UserPayload.java               ← User-related payload builder
         │   ├── requestBuilder/
-        │   │   ├── BaseRequestBuilder.java        ← Shared RestAssured config (baseURI, headers, logging)
         │   │   ├── AdminRequestBuilder.java       ← Admin-authenticated request setup
         │   │   └── UserRequestBuilder.java        ← User-authenticated request setup
         │   └── tests/
